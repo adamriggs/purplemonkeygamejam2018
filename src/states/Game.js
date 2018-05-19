@@ -80,7 +80,8 @@ export default class extends Phaser.State {
     }
 
     this.stars.forEach(function (element) {
-      if (element.x < 10 && element.y > 600) {
+      if (element.x < 10 && element.y > 550) {
+        console.log('kill')
         element.kill()
       }
     }, this)
@@ -107,5 +108,8 @@ export default class extends Phaser.State {
 
     star.reset(this.levelData.goal.x, this.levelData.goal.y)
     star.body.velocity.x = this.levelData.starSpeed
+
+    star.animations.add('star', [0, 1, 2, 1], 12, true)
+    star.play('star')
   }
 }

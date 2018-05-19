@@ -22,7 +22,7 @@ export default class extends Phaser.State {
     this.load.image('platform5', 'assets/images/platform5.png')
     this.load.spritesheet('player', 'assets/images/axeknight.png', 59, 67)
     this.load.spritesheet('owl', 'assets/images/owl.png', 58, 73)
-    this.load.spritesheet('star', 'assets/images/stars.png', 47, 47)
+    this.load.spritesheet('star', 'assets/images/stars.png', 47, 33)
   }
 
   create () {
