@@ -1,5 +1,5 @@
 {
-	"level1": {
+	"0": {
 		"playerStart": {"x": 10, "y": 545},
 		"platformData": [
 			{"x": 0, "y": 597, "width": 5},
@@ -10,14 +10,48 @@
 			{"x": 200, "y": 140, "width": 2}
 		],
 		"fireData": [
-			{ "x": 200, "y": 538 },
-			{ "x": 60, "y": 408 },
-			{ "x": 190, "y": 408 },
-			{ "x": 180, "y": 268 },
-			{ "x": 200, "y": 118 }
+			{ "x": 320, "y": 578 },
+			{ "x": 180, "y": 322 }
 		],
 		"goal": {"x": 40, "y": 60},
 		"starFrequency" : 5,
 		"starSpeed" : 120
+	},
+
+	"1": {
+		"playerStart": {"x": 10, "y": 545},
+		"platformData": [
+			{"x": 0, "y": 597, "width": 5},
+			{"x": 5, "y":460, "width": 3},
+			{"x": 60, "y": 340, "width": 4},
+			{"x": 100, "y": 260, "width": 2},
+			{"x": 0, "y": 140, "width": 2},
+			{"x": 200, "y": 140, "width": 2}
+		],
+		"fireData": [
+			{ "x": 320, "y": 578 },
+			{ "x": 180, "y": 322 }
+		],
+		"goal": {"x": 40, "y": 60},
+		"starFrequency" : 3,
+		"starSpeed" : 160
+	},
+
+	"2": {
+		"playerStart": {"x": 10, "y": 545},
+		"platformData": [
+			{"x": 0, "y": 597, "width": 5},
+			{"x": 5, "y":460, "width": 2},
+			{"x": 90, "y": 340, "width": 2},
+			{"x": 300, "y": 290, "width": 2},
+			{"x": 0, "y": 140, "width": 2},
+			{"x": 200, "y": 140, "width": 2}
+		],
+		"fireData": [
+			{ "x": 220, "y": 578 }
+		],
+		"goal": {"x": 40, "y": 60},
+		"starFrequency" : 3,
+		"starSpeed" : 250
 	}
 }

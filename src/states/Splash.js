@@ -15,11 +15,16 @@ export default class extends Phaser.State {
   create () {
     console.log('Splash.create()')
     this.stage.backgroundColor = '#fff'
+    this.game.input.onDown.add(this.clickHandler, this)
   }
 
   render () {
-    if (this.spacebar.isDown) {
-      this.state.start('Game')
-    }
+    // if (this.spacebar.isDown) {
+    //   this.state.start('Game')
+    // }
+  }
+
+  clickHandler () {
+    this.state.start('Game')
   }
 }
